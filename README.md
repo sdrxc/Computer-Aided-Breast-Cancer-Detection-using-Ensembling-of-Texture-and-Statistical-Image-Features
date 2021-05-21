@@ -10,3 +10,6 @@
 (3) Institute of Neural Information Processing, Ulm University, Ulm, Germany
 
 ![](flowchart_new.png)
+
+
+![](stacking.png)
