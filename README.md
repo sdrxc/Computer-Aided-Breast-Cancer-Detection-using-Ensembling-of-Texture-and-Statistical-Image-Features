@@ -1,4 +1,4 @@
-# Computer-Aided-Breast-Cancer-Detection-using-Ensembling-of-Texture-and-Statistical-Image-Features
+# Computer Aided Breast Cancer Detection using Ensembling of Texture and Statistical Image Features
 ## MDPI: Sensors
 
 ### Authors: Soumya Deep Roy, Soham Das, Devroop Kar, Friedhelm Schwenker and Ram Sarkar
