@@ -1,17 +1,32 @@
-# Computer Aided Breast Cancer Detection using Ensembling of Texture and Statistical Image Features
-## MDPI: Sensors
+# Computer-Aided Breast Cancer Detection via Ensemble of Texture & Statistical Image Features
 
-### Authors: Soumya Deep Roy, Soham Das, Devroop Kar, Friedhelm Schwenker and Ram Sarkar
+**Authors:** Soumya Deep Roy, Soham Das, Devroop Kar, Friedhelm Schwenker, Ram Sarkar
 
-(1) Department of Metallurgical and Material Engineering, Jadavpur University, Kolkata -700032, India
+Published in *Sensors* (2021). Based on ensembling texture-based and statistical features for breast cancer image classification.
 
-(2) Department of Computer Science and Engineering, Jadavpur University, Kolkata -700032, India
+---
 
-(3) Institute of Neural Information Processing, Ulm University, Ulm, Germany
+##  Repository Overview
 
-![](flowchart_new.png)
+| File/Folder | Purpose |
+|-------------|---------|
+| `*.ipynb` (Notebook) | End-to-end workflow: data exploration, feature extraction, model stacking, and evaluation |
+| `glcm_kaggle2.py`, `nfeat2.py` | Scripts for extracting GLCM/statistical features and building the feature set |
+| `flowchart_new.png`, `stacking_new.png`, `stacking_new2.png` | Visual diagrams illustrating the methodology and stacking approach |
+| `README.md` | Project overview, instructions, and citation |
 
+---
 
-![](stacking_new.png)
+##  Quick Start
 
-![](stacking_new2.png)
+### Prerequisites
+- Python 3.7+
+- Jupyter
+- Required libraries (NumPy, pandas, scikit-learn, OpenCV, Matplotlib, etc.)
+
+### Setup
+```bash
+git clone <this repo>
+cd Computer-Aided-Breast-Cancer-Detection-using-Ensembling-of-Texture-and-Statistical-Image-Features
+pip install -r requirements.txt  # if you add one
+jupyter notebook
